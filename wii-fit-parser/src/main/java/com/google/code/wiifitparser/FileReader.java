@@ -1,4 +1,4 @@
-package com.google.code.google.wiifitparser;
+package com.google.code.wiifitparser;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -19,7 +19,7 @@ public class FileReader {
 	public static void main(String[] args) {
 		System.out.println("Strating FileReader.main()");
 
-		if (args == null || args.length > 2) {
+		if (args == null || args.length == 0 || args.length > 2) {
 			System.err.println("Wrong arguments!"+"\n"+
 					"First Argument = Path to decrypted WiiFitSavegame File"+"\n"+
 					"For decryption see git.infradead.org/users/segher/wii.git"+"\n"+
