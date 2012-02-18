@@ -1,4 +1,4 @@
-package cc.kaefer.wiifitparser;
+package com.google.code.google.wiifitparser;
 
 import java.io.File;
 import java.io.FileNotFoundException;

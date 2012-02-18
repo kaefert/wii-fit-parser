@@ -1,4 +1,4 @@
-package cc.kaefer.wiifitparser;
+package com.google.code.google.wiifitparser;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

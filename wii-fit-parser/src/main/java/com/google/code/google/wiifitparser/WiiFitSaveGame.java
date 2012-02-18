@@ -1,4 +1,4 @@
-package cc.kaefer.wiifitparser;
+package com.google.code.google.wiifitparser;
 
 import org.codehaus.preon.annotation.BoundList;
 import org.codehaus.preon.annotation.BoundString;
