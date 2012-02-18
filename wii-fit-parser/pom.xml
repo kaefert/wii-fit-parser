@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cc.kaefer</groupId>
+	<artifactId>wiifitparser</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>A Parser for Wii-Fit (Plus) Savegame Data</name>
+
+	<dependencies>
+
+		<!-- <dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.7</version>
+			<scope>test</scope>
+		</dependency> -->
+
+		<dependency>
+			<groupId>org.codehaus.preon</groupId>
+			<artifactId>preon-binding</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- <dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.1</version>
+			<scope>test</scope>
+		</dependency> -->
+
+		<dependency>
+			<groupId>net.sf.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>2.0</version>
+		</dependency>
+
+
+	</dependencies>
+
+	<repositories>
+
+		<!-- <repository>
+			<id>pecia-repository</id>
+			<url>http://pecia.sourceforge.net/repository</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<releases>
+			</releases>
+		</repository> -->
+
+		<repository>
+			<id>preon-repository</id>
+			<url>http://snapshots.repository.codehaus.org</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+
+	</repositories>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
