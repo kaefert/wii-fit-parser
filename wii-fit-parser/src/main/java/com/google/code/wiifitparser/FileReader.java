@@ -17,7 +17,7 @@ public class FileReader {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("Strating FileReader.main()");
+		System.out.println("Starting FileReader.main()");
 
 		if (args == null || args.length == 0 || args.length > 2) {
 			System.err.println("Wrong arguments!"+"\n"+
