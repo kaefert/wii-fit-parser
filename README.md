@@ -30,7 +30,7 @@ http://jansenprice.com/blog?id=9-Extracting-Data-from-Wii-Fit-Plus-Savegame-File
 
 For you to have it a little bit easier to use the segher's wii tool I provide the **required sd-keys** here:
 
-http://code.google.com/p/wii-fit-parser/downloads/detail?name=wii-sd-keys.zip
+https://github.com/kaefert/wii-fit-parser/releases/download/v1.0/wii-sd-keys.zip
 
 You need to extract this .wii directory into your homefolder
 
@@ -50,7 +50,7 @@ make
 
 This is the part where this project here comes into play. Just download the all-in-one jar from here:
 
-http://code.google.com/p/wii-fit-parser/downloads/detail?name=wiifitparser.jar
+https://github.com/kaefert/wii-fit-parser/releases/download/v1.0/wiifitparser.jar
 
 and run it on the console like this:
 
