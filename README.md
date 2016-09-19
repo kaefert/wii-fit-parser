@@ -92,3 +92,9 @@ git clone "https://github.com/synnefy/preon.git"
 cd preon
 mvn install
 ```
+
+Afterwards you can build "wii-fit-parser" using maven, for example like:
+`mvn clean package`
+
+or if you want to get a all-in-one jar that includes dependencies (like the one published here as release v1.0 you can use:
+`mvn clean compile assembly:single`
