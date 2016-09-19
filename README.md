@@ -3,9 +3,9 @@ Automatically exported from code.google.com/p/wii-fit-parser
 
 ## History of this project
 
-In 2012 I had done a few hundred "body tests" with the Wii "game?" "Wii fit". I wanted to back up the data in a format that can be worked with.
+In 2012 I had accumulated over 1000 "body tests" with the Wii "game?" "Wii fit". I wanted to back up the data in a format that can be worked with.
 
-In my research how to do that, I found the existing python script "wiifit" https://code.google.com/archive/p/wiifit/ and it looked like it worked fine at first, but then I found out it gave wrong values for about 0.5% lines in the columns bmi & weight in kg. Instead of trying to hunt down the bug in the what was in my opinion not very easily readable python code, I created this project.
+In my research how to do that, I found the existing python script "wiifit" https://code.google.com/archive/p/wiifit/ and it looked like it worked fine at first, but then I found out it gave wrong values for about 30 of my 1100 bodytests in the columns bmi & weight in kg. Instead of trying to hunt down the bug in the what was in my opinion not very easily readable python code, I created this project.
 
 Below the original HowTo I published in 2012 on google code (where this project was originally hosted), original can be found still at:
 https://code.google.com/archive/p/wii-fit-parser/wikis/HowTo.wiki
