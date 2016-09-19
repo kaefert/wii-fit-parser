@@ -81,3 +81,14 @@ Here are some links for information on Preon:
   * https://github.com/wspringer/preon
   * http://www.scribd.com/springerw/d/8128172-Preon-Introduction
   * http://www.scribd.com/springerw/d/7988375-Preon-Under-the-Hood
+
+## Building this project
+
+Since the preon maven artefacts where hosted as snapshot builds on codehaus.org, they are not available anymore. The easiest workaround I found is building and installing this java 1.8 ready fork of preon to the local maven repository:
+```
+mkdir -p "~/Development/libraries/"
+cd "~/Development/libraries/"
+git clone "https://github.com/synnefy/preon.git"
+cd preon
+mvn install
+```
